@@ -33,8 +33,12 @@ plot_basic_2d(ax[0, 0], np.linspace(-10, 10, 200), np.sin(np.linspace(-10, 10, 2
 plot_basic_2d(ax[1, 1], np.linspace(-10, 10, 200), np.cos(np.linspace(-10, 10, 200)),
               title='Title', xlabel='x-axis', ylabel='y-axis',
               descrip='g-.', tag='second one')
+
+
 def func3d(x):
     return x[0]**2 + x[1]**2
+
+
 plot_contour(ax[0, 1], np.linspace(-10, 10, 200), np.linspace(-10, 10, 200), func3d,
              lnlabels=False, fill=True)
 
