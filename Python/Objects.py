@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class doStuff:
     def __init__(self, var1=0, var2=0, var3=0):
         self.var1 = var1
@@ -8,6 +9,7 @@ class doStuff:
     x = np.array([1])
     def addStuff(self, a):
         self.x = np.append(self.x, a)
+
 
 # New class that inherits doStuff, then extends it by adding var4 to existing stuff
 class doMoreStuff(doStuff):

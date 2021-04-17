@@ -31,3 +31,7 @@ print(c[-1])
 print(c[0:-1])  # <-- remember "up to but not including" !!
 print(dir(c))  # print all of the available methods associated with it
 print(4 in c)
+
+bigString = 'This if for testing the split function'
+splitted = bigString.split()
+print(splitted)
