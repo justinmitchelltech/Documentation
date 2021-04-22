@@ -4,7 +4,7 @@ import numpy as np
 class doStuff:
     def __init__(self, var1=0, var2=0, var3=0):
         self.var1 = var1
-        self.var2 = var2
+        self.Exvar2 = var2
         self.var3 = var3
     x = np.array([1])
     def addStuff(self, a):
